@@ -1,6 +1,8 @@
 # EP 1 - LFA
 ##### Feito por Kauê e Danilo
 
+
+
 Optamos pelo Transdutor de Mealy devido à natureza da gramática romana. No sistema romano, o valor de um símbolo é determinado pela relação com o símbolo seguinte.
 
 - Eficiência de Estados: No Mealy, a saída é gerada na transição. Isso nos permite tratar casos como IV (4) e IX (9) saindo de um único estado de espera (q1​) apenas mudando a transição. Se usássemos Moore, precisaríamos de estados específicos para "Estado do 4" e "Estado do 9", o que aumentaria drasticamente a complexidade do diagrama.
