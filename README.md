@@ -1,4 +1,3 @@
-<img width="1559" height="631" alt="image" src="https://github.com/user-attachments/assets/2aa5509d-76e9-4977-af35-86c1f42da56d" />
 **EP 1 - LFA**
 
 Optamos pelo Transdutor de Mealy devido à natureza da gramática romana. No sistema romano, o valor de um símbolo é determinado pela relação com o símbolo seguinte.
@@ -11,4 +10,6 @@ Algumas transições podem não ter um alfabeto de saída quando lídamos com o 
 
 Esse seria o Transdutor
 
-![Uploading image.png…]()
+
+<img width="1559" height="631" alt="image" src="https://github.com/user-attachments/assets/2aa5509d-76e9-4977-af35-86c1f42da56d" />
+
