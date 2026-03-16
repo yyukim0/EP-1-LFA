@@ -1,4 +1,4 @@
-<h1>**EP 1 - LFA**</h1>
+<h1>EP 1 - LFA</h1>
 
 Optamos pelo Transdutor de Mealy devido à natureza da gramática romana. No sistema romano, o valor de um símbolo é determinado pela relação com o símbolo seguinte.
 
