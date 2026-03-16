@@ -1,4 +1,5 @@
-<h1>EP 1 - LFA</h1>
+# EP 1 - LFA
+##### Feito por Kauê e Danilo
 
 Optamos pelo Transdutor de Mealy devido à natureza da gramática romana. No sistema romano, o valor de um símbolo é determinado pela relação com o símbolo seguinte.
 
@@ -12,4 +13,3 @@ Esse seria o Transdutor
 
 
 <img width="1559" height="631" alt="image" src="https://github.com/user-attachments/assets/2aa5509d-76e9-4977-af35-86c1f42da56d" />
-
