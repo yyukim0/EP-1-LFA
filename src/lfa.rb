@@ -28,8 +28,8 @@ class TradutorRomano
 
       #CENTENAS
       in ["C", "qC0"] then estado = avancar_estado("qC1")
-      in ["D", "qC1"] then estado = transicao("qD0", 400) # CD (Pula direto para dezenas)
-      in ["M", "qC1"] then estado = transicao("qD0", 900) # CM (Pula direto para dezenas)
+      in ["D", "qC1"] then estado = transicao("qD0", 400) 
+      in ["M", "qC1"] then estado = transicao("qD0", 900) 
       in ["C", "qC1"] then estado = avancar_estado("qC2")
       in ["C", "qC2"] then estado = avancar_estado("qC3")
       in ["D", "qC0"] then estado = transicao("qC0", 500)
@@ -41,8 +41,8 @@ class TradutorRomano
 
       #DEZENAS
       in ["X", "qD0"] then estado = avancar_estado("qD1")
-      in ["L", "qD1"] then estado = transicao("qU0", 40) # XL
-      in ["C", "qD1"] then estado = transicao("qU0", 90) # XC
+      in ["L", "qD1"] then estado = transicao("qU0", 40) 
+      in ["C", "qD1"] then estado = transicao("qU0", 90) 
       in ["X", "qD1"] then estado = avancar_estado("qD2")
       in ["X", "qD2"] then estado = avancar_estado("qD3")
       in ["L", "qD0"] then estado = transicao("qD0", 50)
@@ -54,8 +54,8 @@ class TradutorRomano
 
       #UNIDADES
       in ["I", "qU0"] then estado = avancar_estado("qU1")
-      in ["V", "qU1"] then estado = transicao("qU_FIM", 4) # IV
-      in ["X", "qU1"] then estado = transicao("qU_FIM", 9) # IX
+      in ["V", "qU1"] then estado = transicao("qU_FIM", 4) 
+      in ["X", "qU1"] then estado = transicao("qU_FIM", 9) 
       in ["I", "qU1"] then estado = avancar_estado("qU2")
       in ["I", "qU2"] then estado = avancar_estado("qU3")
       in ["V", "qU0"] then estado = transicao("qU0", 5)
