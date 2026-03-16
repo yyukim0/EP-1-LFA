@@ -92,7 +92,7 @@ class TradutorRomano
 
   def epsilon_com_valor(novo_estado, valor)
     @total += valor
-    puts "Saída Epsilon: +#{valor} | Pulando para: #{novo_estado}"
+    puts "Soma dos valores: +#{valor} | Pulando para: #{novo_estado}"
     novo_estado
   end
 end
